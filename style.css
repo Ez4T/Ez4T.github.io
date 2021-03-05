@@ -1,0 +1,45 @@
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.navbar{
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #eee;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+.navbar-logo{
+    display: grid;
+    align-items: center;
+}
+.navbar-logo img{
+    max-width: 120px;
+    align-items: center;
+}
+
+.navbar-menu ul{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, 100px);
+    padding: 0 0.5rem;
+    justify-content: end;
+}
+
+section{
+    max-width: 100%;
+}
+section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+.preflop-img{
+    display: grid;
+    justify-content: center;
+}
+.preflop-button{
+    display: grid;
+    justify-content: center;
+}
